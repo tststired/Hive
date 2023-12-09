@@ -15,4 +15,10 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  rules: {
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  rules: {
+    '@typescript-eslint/no-unsafe-call': "off",
+  },
 }
